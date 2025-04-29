@@ -174,7 +174,7 @@ export const myData = {
         certificate: "Data Statistika dan Data Science.jpg",
       },
       {
-        title: "SEO 101 : Cara Membuat Website Eksis di Halaman Depan Google",
+        title: "Cara Membuat Website Eksis di Halaman Depan Google",
         organizer: "Skill Academy By Ruang Guru",
         time: "April 2021",
         image: "skillacademy.jpg",
@@ -213,7 +213,7 @@ export const myData = {
       image: "biropengadaan.jpg",
     },
     {
-      job: "Staf Entri EMONEV & Pembantu Bendahara Pengeluaran",
+      job: "Staf Entri EMONEV & Bendahara Pengeluaran",
       company: "Biro PP & Kesra Setda Provinsi Gorontalo",
       time: "Januari 2014 - Desember 2017",
       time2: "Jan 2014 - Des 2017",
