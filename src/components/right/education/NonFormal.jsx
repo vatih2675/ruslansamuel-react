@@ -1,6 +1,6 @@
 const NonFormal = ({ myData }) => {
     const handleClickNonFormal = (certificate) => {
-      window.open("/src/assets/images/sertifikat/" + certificate);
+      window.open("images/sertifikat/" + certificate);
     };
     return (
       <div className="bg-white rounded-lg shadow-md overflow-hidden w-full p-6">
@@ -14,7 +14,7 @@ const NonFormal = ({ myData }) => {
               className="flex justify-start items-center text-gray-500 cursor-default gap-4 w-full"
             >
               <img
-                src={`/src/assets/images/bg/${nonformal.image}`}
+                src={`images/bg/${nonformal.image}`}
                 alt="Image"
                 className="size-20 object-cover object-center rounded-md"
               />

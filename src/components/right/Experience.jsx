@@ -11,7 +11,7 @@ const Experience = ({myData}) => {
               className="flex justify-start items-center text-gray-500 cursor-default gap-4 w-full"
             >
               <img
-                src={`/src/assets/images/bg/${experience.image}`}
+                src={`images/bg/${experience.image}`}
                 alt="Image"
                 className="size-20 object-cover object-center rounded-md"
               />

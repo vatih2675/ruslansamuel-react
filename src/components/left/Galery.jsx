@@ -8,7 +8,7 @@ const Galery = ({galery}) => {
           {galery.map((img, index) => (
             <img
               key={index}
-              src={`/src/assets/images/albums/${img}`}
+              src={`images/albums/${img}`}
               alt="Albums"
               className="size-28 object-cover object-center rounded-md cursor-pointer hover:scale-120 transition-all duration-200 hover:shadow-lg"
             />

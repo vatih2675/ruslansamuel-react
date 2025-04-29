@@ -73,7 +73,7 @@ const Content = ({ myData, galery, tanggalHariIni }) => {
               <img
                 src={`images/avatar/${myData.profilePicture}`}
                 alt="Profile"
-                className="absolute -top-12  w-36 rounded-full cursor-pointer border-4 border-white shadow-md"
+                className="absolute -top-12 bg-gray-200 w-36 rounded-full cursor-pointer border-4 border-white shadow-md"
               />
               <div className="flex justify-between items-center w-full">
                 <div className="flex flex-col justify-center items-start w-full ps-40 cursor-default pointer-events-none">
