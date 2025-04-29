@@ -9,7 +9,7 @@ const Topbar = ({myData, tanggalHariIni, jamBerjalan}) => {
           className="py-3 flex justify-center items-center gap-2 font-bold text-2xl text-blue-700 uppercase"
         >
           <img
-            src={`public/images/avatar/${myData.profilePicture}`}
+            src={`images/avatar/${myData.profilePicture}`}
             alt="Profile"
             className="w-10 rounded-full bg-gray-200"
           />

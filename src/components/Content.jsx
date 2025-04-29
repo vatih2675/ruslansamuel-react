@@ -65,13 +65,13 @@ const Content = ({ myData, galery, tanggalHariIni }) => {
         <div className="w-8/12">
           <div className="bg-white rounded-lg shadow-md overflow-hidden w-full">
             <img
-              src="public/images/bg/01.jpg"
+              src="images/bg/01.jpg"
               alt="Banner"
               className="h-50 w-full object-cover"
             />
             <div className="p-4 relative w-full">
               <img
-                src={`/src/assets/images/avatar/${myData.profilePicture}`}
+                src={`images/avatar/${myData.profilePicture}`}
                 alt="Profile"
                 className="absolute -top-12  w-36 rounded-full cursor-pointer border-4 border-white shadow-md"
               />
