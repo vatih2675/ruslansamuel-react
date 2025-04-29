@@ -1,5 +1,6 @@
 import { useState } from "react";
-import cv_ulan from "../assets/documents/CV.pdf";
+import { Link, NavLink } from "react-router-dom";
+// import cv_ulan from "../assets/documents/CV.pdf";
 import Profile from "./right/profile/Profile";
 import Formal from "./right/education/Formal";
 import Hoby from "./right/profile/Hoby";
@@ -18,9 +19,9 @@ const Content = ({ myData, galery, tanggalHariIni }) => {
   const handleClickSosial = () => {
     setSocialActive(!socialActive);
   };
-  const handleClickDownloadCv = () => {
-    window.open(cv_ulan);
-  };
+  // const handleClickDownloadCv = () => {
+  //   window.open(cv_ulan);
+  // };
 
   const [profileActive, setProfileActive] = useState(true);
   const [educationActive, setEducationActive] = useState(false);
@@ -83,12 +84,19 @@ const Content = ({ myData, galery, tanggalHariIni }) => {
                   <span className="text-gray-500">({myData.alias})</span>
                 </div>
                 <div className="flex justify-end items-center gap-2 w-full relative">
-                  <div
+                  {/* <div
                     onClick={handleClickDownloadCv}
                     className="h-12 px-6 flex justify-center items-center bg-red-100 hover:bg-red-500 text-red-500 hover:text-white rounded-full cursor-pointer transition-all duration-200 hover:ring-1 hover:ring-red-300 hover:shadow-md"
                   >
                     <i className="bi-download me-2"></i>Download CV
-                  </div>
+                  </div> */}
+                  {/* <NavLink ></NavLink> */}
+                  <Link
+                    to={"/cv"}
+                    className="h-12 px-6 flex justify-center items-center bg-red-100 hover:bg-red-500 text-red-500 hover:text-white rounded-full cursor-pointer transition-all duration-200 hover:ring-1 hover:ring-red-300 hover:shadow-md"
+                  >
+                    <i className="bi-download me-2"></i>Download CV
+                  </Link>
                   <div
                     onClick={handleClickSosial}
                     className="size-12  flex justify-center items-center bg-gray-100 text-gray-400 hover:text-gray-700 rounded-full cursor-pointer transition-all duration-200 hover:ring-1 hover:ring-gray-300 hover:shadow-md"

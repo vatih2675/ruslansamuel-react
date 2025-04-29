@@ -24,6 +24,8 @@ export const myData = {
     website: "ruslansamuel.vercel.app",
     phone: "62895708460123",
   },
+  about:
+    "Perkenalkan Saya Ruslan Dara Samuel, biasa dipanggil Ulan. Saya adalah lulusan SMA Jurusan IPA. Begitu lulus SMA Saya langsung memulai petualangan kerja untuk belajar dan menambah keahlian-keahlian baru. Selain bekerja, Saya terus mengikuti pelatihan-pelatihan baik yang diselenggarakan oleh pemerintah maupun swasta.",
   social: [
     {
       app: "whatsapp",
@@ -49,42 +51,22 @@ export const myData = {
   hobies: [
     {
       icon: "book",
-      hoby: "Membaca",
+      hobby: "Membaca",
     },
     {
       icon: "music-note-beamed",
-      hoby: "Musik",
+      hobby: "Musik",
     },
     {
       icon: "mic",
-      hoby: "Menyanyi",
+      hobby: "Menyanyi",
     },
     {
       icon: "code-slash",
-      hoby: "Coding",
+      hobby: "Coding",
     },
   ],
   skills: [
-    {
-      icon: "windows",
-      skill: "MS Office",
-    },
-    {
-      icon: "bookmark-star",
-      skill: "Marketing",
-    },
-    {
-      icon: "journal-bookmark",
-      skill: "Akuntansi",
-    },
-    {
-      icon: "cash-coin",
-      skill: "Collection",
-    },
-    {
-      icon: "filetype-html",
-      skill: "HTML",
-    },
     {
       icon: "filetype-css",
       skill: "CSS",
@@ -102,12 +84,33 @@ export const myData = {
       skill: "MySQL",
     },
     {
+      icon: "filetype-html",
+      skill: "HTML",
+    },
+    {
       icon: "brush",
       skill: "Desain Grafis",
     },
     {
+      icon: "windows",
+      skill: "MS Office",
+    },
+    {
       icon: "soundwave",
       skill: "Audio Production",
+    },
+    {
+      icon: "journal-bookmark",
+      skill: "Akuntansi",
+    },
+    {
+      icon: "cash-coin",
+      skill: "Collection",
+    },
+
+    {
+      icon: "bookmark-star",
+      skill: "Marketing",
     },
     {
       icon: "film",
@@ -192,36 +195,42 @@ export const myData = {
       job: "Field Collection",
       company: "PT. SMS Finance Cab. Gorontalo",
       time: "Juli - Oktober 2023",
+      time2: "Jul - Okt 2023",
       image: "smsfinance.png",
     },
     {
       job: "Field Assets Management & Account Verificator",
       company: "PT. BFI Finance Indonesia Tbk. Cabang Gorontalo",
       time: "Februari - Agustus 2022",
+      time2: "Feb - Ags 2022",
       image: "bfifinance.jpg",
     },
     {
       job: "Staf Program & Admin Server LPSE",
       company: "Biro Pengadaan Setda Provinsi Gorontalo",
       time: "Januari 2018 - Februari 2021",
+      time2: "Jan 2018 - Feb 2021",
       image: "biropengadaan.jpg",
     },
     {
       job: "Staf Entri EMONEV & Pembantu Bendahara Pengeluaran",
       company: "Biro PP & Kesra Setda Provinsi Gorontalo",
       time: "Januari 2014 - Desember 2017",
+      time2: "Jan 2014 - Des 2017",
       image: "gorontalo.png",
     },
     {
       job: "Mantri Penagihan",
       company: "Koperasi Simpan Pinjam 'Karya Bersama'",
       time: "Maret - September 2013",
+      time2: "Mar - Sep 2013",
       image: "koperasi.png",
     },
     {
       job: "Operator",
       company: "Fotocopy 'PURNAMA'",
       time: "Maret - Agustus 2012",
+      time2: "Mar - Ags 2012",
       image: "purnama.jpg",
     },
   ],
