@@ -65,7 +65,7 @@ const Content = ({ myData, galery, tanggalHariIni }) => {
         <div className="w-8/12">
           <div className="bg-white rounded-lg shadow-md overflow-hidden w-full">
             <img
-              src="/src/assets/images/bg/01.jpg"
+              src="public/images/bg/01.jpg"
               alt="Banner"
               className="h-50 w-full object-cover"
             />
