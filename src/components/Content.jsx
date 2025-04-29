@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react"
-import cv_ulan from '../assets/documents/CV Ulan.pdf'
+import { useState } from "react";
+import cv_ulan from "../assets/documents/CV Ulan.pdf";
 import Profile from "./right/profile/Profile";
 import Formal from "./right/education/Formal";
 import Hoby from "./right/profile/Hoby";
@@ -13,7 +13,7 @@ import Contact from "./right/Contact";
 import MyApp from "./left/MyApp";
 import Calendar from "./left/Calendar";
 
-const Content = ({ myData, galery, tanggalHariIni, jamBerjalan }) => {
+const Content = ({ myData, galery, tanggalHariIni }) => {
   const [socialActive, setSocialActive] = useState(false);
   const handleClickSosial = () => {
     setSocialActive(!socialActive);
@@ -65,13 +65,13 @@ const Content = ({ myData, galery, tanggalHariIni, jamBerjalan }) => {
         <div className="w-8/12">
           <div className="bg-white rounded-lg shadow-md overflow-hidden w-full">
             <img
-              src="src/assets/images/bg/01.jpg"
+              src="/src/assets/images/bg/01.jpg"
               alt="Banner"
               className="h-50 w-full object-cover"
             />
             <div className="p-4 relative w-full">
               <img
-                src={`src/assets/images/avatar/${myData.profilePicture}`}
+                src={`/src/assets/images/avatar/${myData.profilePicture}`}
                 alt="Profile"
                 className="absolute -top-12  w-36 rounded-full cursor-pointer border-4 border-white shadow-md"
               />
@@ -216,4 +216,4 @@ const Content = ({ myData, galery, tanggalHariIni, jamBerjalan }) => {
   );
 };
 
-export default Content
+export default Content;

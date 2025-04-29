@@ -52,10 +52,20 @@ const App = () => {
       // setTahun(waktu.getFullYear());
     }, 1);
   }, []);
-  return <>
-    <Topbar myData={myData} tanggalHariIni={tanggalHariIni} jamBerjalan={jamBerjalan} />
-    <Content myData={myData} galery={galery} tanggalHariIni={tanggalHariIni} jamBerjalan={jamBerjalan} />
-  </>;
+  return (
+    <>
+      <Topbar
+        myData={myData}
+        tanggalHariIni={tanggalHariIni}
+        jamBerjalan={jamBerjalan}
+      />
+      <Content
+        myData={myData}
+        galery={galery}
+        tanggalHariIni={tanggalHariIni}
+      />
+    </>
+  );
 }
 
 export default App
