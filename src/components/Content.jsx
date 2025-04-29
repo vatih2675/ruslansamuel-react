@@ -1,5 +1,5 @@
 import { useState } from "react";
-import cv_ulan from "../assets/documents/CV Ulan.pdf";
+import cv_ulan from "../assets/documents/CV.pdf";
 import Profile from "./right/profile/Profile";
 import Formal from "./right/education/Formal";
 import Hoby from "./right/profile/Hoby";
